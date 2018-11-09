@@ -53,7 +53,6 @@ particle=repmat(empty_particle,nPop,1);
 GlobalBest.Cost = 0;
 
 
-
 for i=1:nPop
     
     % Initialize Position
