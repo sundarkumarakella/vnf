@@ -14,3 +14,27 @@ for i = 1:N-1
     end 
 end
 end
+
+
+function [minimum] = MultipleCalls(chain, N, EdgeDisjoint)
+
+N = 20;
+
+
+Ends = zeros(N,2);
+
+
+    for i = 1:Nc
+        
+    se = 1;
+    while se < 2
+    Ends(i,1) = randi([N+1,2*N],1,1);
+    Ends(i,2) = randi([N+1,2*N],1,1);
+    if(Ends(i,1) ~= Ends(i,2))
+        se = se + 1 ; 
+    end
+    
+    end
+    
+    end
+end
